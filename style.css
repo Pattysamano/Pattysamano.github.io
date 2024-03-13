@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(237, 221, 234);
+    width: 100%;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li {
+    margin: 20px;
+}
+
+img {
+    width: 100px;
+}
+
+.presentacion {
+    margin: 20px 300px 20px 300px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.caja {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px 30px 0px;
+
+
+}
+
+.caja img {
+    width: 50%;
+}
+
+h1 {
+    font-size: 28px;
+    color: rgb(12, 11, 13);
+    font-family: "Dancing Script", cursive;
+}
+
+p {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    margin: 20px;
+}
+
+.contenedor {
+    background-color: rgb(223, 214, 222);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    align-items: flex-end;
+}
+
+.carrusel {
+    margin: 05% 05% 05% 05%;
+}
+
+h5 {
+    color: black;
+}
+
+iframe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px 100px 0px;
+}
